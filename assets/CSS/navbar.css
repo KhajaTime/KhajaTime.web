@@ -31,22 +31,20 @@ color: black;
  }
  
  .navbar {
-   padding-top: 8px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between; 
-   background-color: rgb(255, 255, 255);
-   position: fixed;
-   top: 0;
-   right: 0;
-   left: 0;
-   height: 80px;
-   border-bottom-width: 1px;
-   border-bottom-style: solid;
-   border-color: rgb(197, 197, 197);
-   z-index: 2;
-  
- }
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgb(197, 197, 197);
+  z-index: 100;}
  
  .navbar-list {
    display: inline-block;
